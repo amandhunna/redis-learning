@@ -7,8 +7,11 @@
 > Allow request(request)
 
 - Non functional
-> Low latency (make decision as soon as possible)
+
+ > Low latency (make decision as soon as possible)
+
 > Accurate (as accurate as we can get)
+
 > Scalable (supports an arbitarily large number of hosts in the cluster)
 
 
@@ -17,8 +20,9 @@
 - Thundering herd problem
 - HyperLogLog
 - Bloon filter
-- Noisy neighbour problem
+- Noisy neighbour problem (resource sharing)
 - Token bucket algo 
+- Heart beat of host
 
 Points
 - auto Scaling takes time to scale 
